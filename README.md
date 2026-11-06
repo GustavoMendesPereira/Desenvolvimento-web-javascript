@@ -79,3 +79,35 @@
 //     console.log(numero);
 //     numero++;
 // }while(numero <=5);
+
+AULA 2 
+let alunos = ["Maria", "João", "Daniel", "Luana", "Marcos"];
+
+// console.log(alunos);
+
+// console.log(alunos[3]); // traz um aluno especifico dentro do array
+
+// alunos.push("Gabriel"); //Adiciona o item no array
+// console.log(alunos);
+
+// alunos.pop(); //retira o ultimo
+// console.log(alunos);
+
+// alunos.shift(); //remove o primeiro
+// console.log(alunos);
+
+// alunos.unshift("Gabriela");
+// console.log(alunos);
+
+// alunos.splice(1,2); //remover de acordo com a posição
+// console.log(alunos);
+
+// let posicao = alunos.indexOf("Luana"); //encontrar posição dentro do array
+// console.log(posicao);
+
+for(let i = 0; i < alunos.length; i++);{
+    console.log(alunos[i]);
+}
+for(let aluno of alunos){
+    console.log(aluno);
+}
